@@ -1,0 +1,63 @@
+.hero{
+    .container{
+        width: 1111px;
+        background-image: url(../imges/11.png);
+        background-repeat: no-repeat;
+
+    }
+
+    &__info{
+        padding-top: 145px;
+        padding-left: 95px;
+        padding-bottom: 153px;
+    }
+
+    &__heading{
+        width: 600px;
+        color: #FFF;
+        font-family: "Jost";
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 48px; 
+    }
+
+    &__text{
+        width: 445px;
+        color: #FFF;
+        font-family: "Jost";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; 
+    }
+
+    &__button{
+        padding: 16px 24px;
+        color: #333136;
+        font-family: "Jost";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        border-radius: 8px;
+        background-color: #fff;
+        border: 2px solid white;
+
+        &:hover{
+            border-radius: 8px;
+            border: 2px solid #FFAD9B;
+            background: #FFAD9B;
+            color: #FFF;
+            font-family: "Jost";
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+    }
+}

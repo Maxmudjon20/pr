@@ -1,0 +1,80 @@
+.bright{
+    margin-top: 160px;
+    margin-left: -80px;
+
+    &__info{
+        background-image: url(../imges/Laptop.png);
+        width: 541px;
+        background-repeat: no-repeat;        
+        
+    }
+
+    &__list{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+    }
+
+    &__heading{
+        padding-top: 273px;
+        padding-left: 137px;        
+        color: #FFF;
+        font-family: "Jost";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 48px; 
+        letter-spacing: 2px;
+    }
+
+    &__text{
+        padding: 0;
+        padding-left: 172px;
+        padding-bottom: 295px;
+        color: #FFF;
+        font-family: "Jost";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+    }
+
+    &__schedule:nth-child(1){
+        width: 541px;
+        background-image: url(../imges/SmartPhone.png);
+        background-repeat: no-repeat;
+    }
+
+    &__schedule:nth-child(2){
+        width: 541px;
+        background-image: url(../imges/AnotherSide.png);
+        background-repeat: no-repeat;
+    }
+
+    &__title{
+        padding-top: 107px;
+        color: #FFF;
+        text-align: center;
+        font-family: "Jost";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 48px; 
+        letter-spacing: 2px;
+    }
+
+    &__graph{
+        padding-bottom: 93px;
+        padding-left: 172px;
+        color: #FFF;
+        font-family: "Jost";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+    }    
+}

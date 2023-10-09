@@ -1,0 +1,39 @@
+.header{
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__logo{
+        margin: 64px 0px;
+    }
+}
+
+.nav{
+
+    &__list{
+        display: flex;
+        align-items: center;
+    }
+
+    &__item + &__item{
+        padding-left: 42px;
+    }
+
+    &__link{
+        color: #333136;
+        font-family: "Jost";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px; 
+        letter-spacing: 2px;
+
+        &:hover{
+            text-decoration: underline;
+            color: black;
+        }
+    }
+}
